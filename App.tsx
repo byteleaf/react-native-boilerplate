@@ -7,7 +7,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  title: {},
   copyright: {
     fontSize: 12,
     color: '#0AB4B4',
@@ -17,7 +16,7 @@ const styles = StyleSheet.create({
 export default function App(): JSX.Element {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>React Native Boilerplate</Text>
+      <Text>React Native Boilerplate</Text>
       <Text style={styles.copyright}>by byteleaf</Text>
     </View>
   );
