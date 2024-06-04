@@ -6,4 +6,4 @@ jobs:
     name: Run job on mac
     runs-on: macos-latest
     steps:
-      - run: sw_vers
+      - run: sysctl -n machdep.cpu.brand_string
